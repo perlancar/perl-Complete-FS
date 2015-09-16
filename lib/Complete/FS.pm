@@ -50,7 +50,11 @@ sub complete_fs {
 1;
 # ABSTRACT:
 
+=for Pod::Coverage .+
+
 =head1 DESCRIPTION
+
+B<NAME GRAB. NOT YET IMPLEMENTED.>
 
 
 =head1 SEE ALSO
