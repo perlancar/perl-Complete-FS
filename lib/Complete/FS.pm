@@ -7,7 +7,7 @@ use 5.010001;
 use strict;
 use warnings;
 
-use Complete::Setting;
+use Complete::Common qw(:all);
 
 require Exporter;
 our @ISA = qw(Exporter);
@@ -26,16 +26,6 @@ $SPEC{complete_fs} = {
             req     => 1,
             pos     => 0,
         },
-        ci => {
-            summary => 'Case-insensitive matching',
-            schema  => 'bool',
-        },
-        #map_case => {
-        #    schema  => 'bool',
-        #},
-        #exp_im_path => {
-        #    schema  => 'bool',
-        #},
     },
     result_naked => 1,
     result => {
